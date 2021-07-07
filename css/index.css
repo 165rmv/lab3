@@ -1,0 +1,303 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+/*******/
+/*Phone*/
+/*******/
+@media (max-width: 1023px){
+  /*
+  body{
+    background-color: coral;
+  }
+  */
+
+  .logo{
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+  }
+
+  h1{
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;    
+  }
+  
+
+  .navbar{
+    background-color: grey;
+  }
+
+  .hamburger{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  main{
+    border-style: solid;
+    margin: 4px;
+  }
+
+  section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product{
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #apple{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #bill{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #curry{
+    display: flex;
+    justify-content: center;
+  }
+
+  h2{
+    display: flex;
+    align-self:center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .social_icon{
+    display: flex;
+  }
+}
+
+/*********/
+/*tablets*/
+/*********/
+@media (min-width: 768px) and (max-width: 1024px){
+  /*
+  body{
+    background-color: aquamarine;
+  }
+  */
+
+  header{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .logo{
+    margin-top: 10px;
+  }
+
+  .navbar{
+    background-color: grey;
+  }
+
+  .hamburger{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  main{
+    border-style: solid;
+    margin: 4px;
+  }
+
+  .product{
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #apple{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #bill{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #curry{
+    display: flex;
+    justify-content: center;
+  }
+
+  h2{
+    display: flex;
+    align-self:center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .social_icon{
+    display: flex;
+  }  
+}
+
+/*******************/
+/*Pantallas grandes*/
+/*******************/
+@media (min-width: 1025px){
+  /*
+  body{
+    background-color: blueviolet;
+  }
+  */
+
+  header{
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo{
+    position: absolute;
+    left: 30px;
+    top: 1%;
+  }
+
+  /*
+  .logo{
+    display: flex;
+    justify-content: left;
+  }
+
+  h1{
+    display: flex;
+    justify-content: center;
+  }*/
+
+  .logo{
+    margin-top: 10px;
+  }
+
+  .navbar{
+    background-color: grey;
+    color: azure;
+  }
+
+  .hamburger{
+    display: none;
+  }
+
+  .menu{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  main{
+    display: flex;
+    border-style: solid;
+    margin: 4px;
+    justify-content: space-between;
+  }
+
+  .product{
+    border-style: solid;
+  }
+
+  #apple{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #bill{
+    display: flex;
+    justify-content: center;
+  }
+  
+  #curry{
+    display: flex;
+    justify-content: center;
+  }
+
+  h2{
+    display: flex;
+    justify-content: center;
+  }
+
+  p{
+    display: flex;
+    text-align: center;
+  }
+
+  /*
+  .product{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-style: solid;
+  }
+
+  h2{
+    display: flex;
+    align-self:center;
+    background-color: crimson;
+  }
+
+  p{
+    text-align: center;
+  }
+*/
+
+  .social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .social_icon{
+    display: flex;
+  }    
+}
+
+
